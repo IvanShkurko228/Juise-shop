@@ -1,0 +1,173 @@
+.body {
+    margin: 0;
+    background-color: #f9f9f9;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 0;
+}
+h1,h2,h3,p,ul {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+/*Header*/
+.header {
+padding: 41px 0;
+border-bottom: #779611 2px solid;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    gap:120px;
+}
+.header-logo{
+    font-family: "Exo2","sans-serif";
+    font-weight:600 ;
+    font-size: 32px;
+    color: #779611;
+    margin-left: 50px;
+}
+.header-list{
+    display: flex;
+    gap: 80px;
+}
+.header-link{
+    font-weight: 500;
+    color: #707070;
+}
+/*Перша секція*/
+.hero {
+    border-bottom:2px solid #779611;
+}
+.hero-container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.hero-title {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Exo2","sans-serif";
+    margin-bottom: 50px;
+    margin-left: 50px;
+    color: #779611;
+}
+.hero-text {
+    font-size: 24px;
+    font-family: 400;
+    color: #000;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.hero-link {
+    display: inline-block;
+    background: #779611;
+    color: #f9f9f9;
+    padding: 18px 70px;
+    border-radius: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.hero-img {
+    margin-left: 50px;
+}
+/*Друга та третя секція*/
+.shop,
+.subscript {
+    padding-top: 80px;
+}
+
+.shop-title,
+.subscript-title {
+color: #779611;
+margin-left: 50px;
+margin-bottom: 35px;
+font-family: "Exo2","sans-serif";
+font-weight: 600;
+font-size: 36px;
+}
+.shop-desc,
+.subscript-desc {
+    color: #000;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.shop-list,
+.subscript-list {
+    display: flex;
+    gap: 20px;
+}
+.shop-caption,
+.subscript-caption {
+    color: #779611;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 32px 0  19px 60px;
+}
+.shop-text,
+.subscript-text {
+margin-left: 60px;
+}
+.subscript {
+    margin-bottom: 80px;
+}
+/*Четверта секція*/
+.about {
+    border-bottom: #779611 solid 2px;
+    border-top: #779611 solid 2px;
+    padding: 114px 0;
+}
+.about-container {
+    display: flex;
+    align-items:center;
+    gap: 455px;
+}
+.about-text {
+    font-size: 48px;
+    font-weight: 500;
+    color: #779611;
+    font-family: "Exo2","sans-serif";
+    margin-left: 50px;
+}
+.about-title {
+    color: #779611;
+    font-weight: 600;
+    font-family: "Exo2","sans-serif";
+    font-size: 48px;
+    margin-left: 50px;
+    margin-top:15px;
+    margin-bottom:35px;
+}
+.about-desc {
+    margin-left: 50px;
+}
+/*Footer*/
+.footer{
+ padding: 60px 0;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-title,
+.footer-link {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 20px;
+  display: inline-block;
+}
